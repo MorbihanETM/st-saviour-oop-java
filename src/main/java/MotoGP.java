@@ -1,7 +1,12 @@
-public class MotoGP extends NotSingleSeater{
-    
-    public MotoGP (String name, int gear, int tyresOn, boolean singleSeater, String maxRecordedSpeed){
-        super(name = "motoGP", tyresOn = 2, gear, singleSeater, maxRecordedSpeed = "366.1km/h");
-        
+
+// Create public class which extends NotSingleSeater
+public class MotoGP extends NotSingleSeater {
+
+    // Constructor
+    public MotoGP(String name, int gear, int tyresOn, boolean singleSeater, String maxRecordedSpeed) {
+        super(name, gear, tyresOn, singleSeater, maxRecordedSpeed);
+        setName("motoGP");
+        setTyresOn(2);
+        setMaxRecordedSpeed("366.1km/h");
     }
 }

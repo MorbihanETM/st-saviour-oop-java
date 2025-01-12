@@ -1,4 +1,6 @@
-public abstract class Motorsports {
+
+// Create abstract public class with its properties
+public abstract class Motorsports { 
     
     public String name;
     public int gear;
@@ -6,6 +8,7 @@ public abstract class Motorsports {
     public String maxRecordedSpeed;
     public boolean singleSeater;
 
+    // Constructor method
     public Motorsports(String name, int gear, int tyresOn, boolean singleSeater, String maxRecordedSpeed){
         this.name = name;
         this.gear = 0;
@@ -13,8 +16,4 @@ public abstract class Motorsports {
         this.singleSeater = singleSeater;
         this.maxRecordedSpeed = maxRecordedSpeed;
     }
-
-    
-    
-
 }
